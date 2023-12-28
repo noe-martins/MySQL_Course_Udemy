@@ -1,0 +1,47 @@
+1. Crie uma tabela "Alunos" com as seguintes colunas:
+
+ID (Chave Primária)
+Nome
+Idade
+Curso
+
+2. Adicione uma coluna "Data de Nascimento" à tabela "Alunos".
+
+3. Crie uma tabela "Cursos" com as seguintes colunas:
+
+ID (Chave Primária)
+Nome do Curso
+Departamento
+
+4. Adicione uma restrição UNIQUE à coluna "Nome" na tabela "Cursos".
+
+5. Crie uma tabela "Matrículas" com as seguintes colunas:
+
+ID (Chave Primária)
+ID do Aluno (Chave Estrangeira referenciando a tabela "Alunos")
+ID do Curso (Chave Estrangeira referenciando a tabela "Cursos")
+Data de Matrícula
+
+6. Adicione uma restrição de chave estrangeira à coluna "ID do Aluno" na tabela "Matrículas".
+
+7. Crie uma tabela "Professores" com as seguintes colunas:
+
+ID (Chave Primária)
+Nome
+Disciplina
+
+8. Crie uma tabela "Notas" com as seguintes colunas:
+
+ID (Chave Primária)
+ID do Aluno (Chave Estrangeira referenciando a tabela "Alunos")
+Nota
+Data da Avaliação
+
+9. Adicione uma restrição CHECK à coluna "Nota" na tabela "Notas" para garantir que seja um valor entre 0 e 10.
+
+10. Crie uma tabela "Departamentos" com as seguintes colunas:
+
+ID (Chave Primária)
+Nome do Departamento
+
+Esses exercícios devem ajudar a consolidar seus conhecimentos na criação de tabelas, chaves primárias, estrangeiras e outras restrições em um banco de dados relacional.
